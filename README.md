@@ -1,10 +1,9 @@
 ![Logo](https://imarticus.org/blog/wp-content/uploads/2021/12/learn-Python-for-data-science.jpg)
 # Python for Data science
-DESCRIPTION:
+### DESCRIPTION:
 
-we can divide python into 5 Modules:
+#### we can divide python into 4 stages:
 
-     -> Python Insallations
      -> Python Basics
      -> Python Intermediate
      -> Python Advanced
@@ -19,5 +18,4 @@ we can divide python into 5 Modules:
  - learn how to build projects on real-world applications
    with the python language.
 
-### 
 
