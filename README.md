@@ -9,17 +9,15 @@ we can divide python into 5 Modules:
      -> Python Intermediate
      -> Python Advanced
      -> Python Production Level
+### what we will learn
+ - Understand basics and more advanced concepts in python
+   language.
+ - Be introduced to data analysis using pandas,numpy
+   and data analysis library.
+ - walk through the process of interviewing
+   and answering technical questions.
+ - learn how to build projects on real-world applications
+   with the python language.
 
-What we will learn
-     
-     - Understand basics and more advanced concepts in python
-       language.
-     - Be introduced to data analysis using pandas,numpy
-       and data analysis library.
-     - walk through the process of interviewing
-       and answering technical questions.
-     - learn how to build projects on real-world applications
-       with the python language.
-
-
+### 
 
