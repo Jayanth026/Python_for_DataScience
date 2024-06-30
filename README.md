@@ -17,5 +17,11 @@
    and answering technical questions.
  - learn how to build projects on real-world applications
    with the python language.
+## Python Basics
+ - Data types
+ 
+ - variables
+ - Operators
+ - Print conditions
 
 
