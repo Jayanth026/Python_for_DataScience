@@ -49,4 +49,31 @@
     represented in quotation marks.
 
   example: s1='Hi', s2="Hello", s3="'world'"
+  ## variables
+ ->A variable is a named memory location in which we can store values for the particular program.
 
+ ->In Python, We don't need to declare explicitly variable in Python. When we assign any value to the variable that variable is declared automatically.
+
+ ->In Python, We don't need to specify the type of variable because Python is a loosely typed language.
+ 
+    -Rules for naming variable:
+
+ ->Variable names can be a group of both letters and digits, but they have to begin with a letter or an underscore.
+
+ ->It is recommended to use lowercase letters for variable name. 'SUM' and 'sum' both are two different variables.
+
+example:
+
+a=12 #interger
+
+b=1.2 #float
+
+c="Hello" #string
+
+->Python allows us to assign a value to multiple variables and multiple values to multiple variables in a single statement which is also known as multiple assignment.
+
+    Assign single value to multiple variables:
+
+example:
+
+a=b=c=10
