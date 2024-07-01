@@ -18,37 +18,10 @@
  - learn how to build projects on real-world applications
    with the python language.
 ## Python Basics
- - Data types
- 
+ - Print conditions
  - variables
  - Operators
- - Print conditions
-## Data types
- ->In general, data types specifies what type of data will be in variables
-
- ->Python provides following standard data types:
-
-    1.Numbers
-    2.String
- #### 1.Numbers:
- ->Numbers store numeric values
-
- ->There are 3 numeric types in python
- 
-    1.int:It is a whole number,positive and negative
-            without decimals.
-      example: a=7,b=-11,c=-23
-    2.float:It is a floating number,positive or negative
-            with containing one or more decimals.
-      example: p=2.12,q=16.0,r=-4.6
-    3.complex:Complex numbers are written with a"j" as the
-            imaginary part.
-      example: a=3+5j,b=-4+9j,c=-27j
-  #### 2.String:
-  ->The string can be defined as a sequence of characters
-    represented in quotation marks.
-
-  example: s1='Hi', s2="Hello", s3="'world'"
+ - Data types
   ## variables
  ->A variable is a named memory location in which we can store values for the particular program.
 
@@ -123,3 +96,66 @@ a=b=c=10
 ### Identity operators:
     is (Returns true if both variables are the same object)
     is not (Returns true if both variables are not the same object)
+## Data types
+ ->In general, data types specifies what type of data will be in variables
+
+ ->Python provides following standard data types:
+
+    1.Numbers
+    2.Strings
+    3.Lists
+    4.Tuple
+    5.Set
+    6.Dictionarie
+    7.Boolean
+    8.None
+ #### 1.Numbers:
+ ->Numbers store numeric values
+
+ ->There are 3 numeric types in python
+ 
+    1.int:It is a whole number,positive and negative
+            without decimals.
+      example: a=7,b=-11,c=-23
+    2.float:It is a floating number,positive or negative
+            with containing one or more decimals.
+      example: p=2.12,q=16.0,r=-4.6
+    3.complex:Complex numbers are written with a"j" as the
+            imaginary part.
+      example: a=3+5j,b=-4+9j,c=-27j
+  #### 2.Strings:
+  ->The string can be defined as a sequence of characters
+  represented in quotation marks.
+   
+      example: s1='Hi', s2="Hello", s3="'world'"
+  ->Python strings are immutable which means they cannot
+  be changed after they are created.
+
+  -> indexing in strings starts from 0.And in negetive indexing -1 refers to last item,-2 is 2nd last element and so on.
+
+  ->String build-in functions are used for string handling.
+  #### 3.Lists
+  ->A list is a collection of items that are orderd and mutable.Lists are represented with square bracket and items are separated by commas.
+
+      example: list=[2,3,4,7], list2=[2.4,1.1,30.0]
+  ->Indexing in list is as same as in python strings.
+
+  ->Python list build-in functions are used for adding,deleting,updating of items in the list.
+  #### Tuple
+  ->A tuple is a sequence of immutable element or items and it can store multipleitems in a single variable.
+
+  ->A tuple can be represented in small brackets().
+
+  ->There are only two build-in functions in a tuple for accessing the items 1.count 2.index.
+  #### Set
+  ->A set is a unordered collectionof items.Every elementis unique and must be immutable.
+  
+  ->However,the set itself is mutable.We can add or remove items from it.
+
+  ->Sets are used to perform mathematical set operations
+  like union,intersection etc.
+
+
+
+
+
