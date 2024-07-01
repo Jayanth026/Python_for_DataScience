@@ -29,7 +29,7 @@
 
    ->The Python print() method is used to print a given message to the screen or to display an object’s value on the terminal.
 
-  for example: print('Hello World!')
+    for example: print('Hello World!')
   ## variables
  ->A variable is a named memory location in which we can store values for the particular program.
 
@@ -45,19 +45,15 @@
 
 example:
 
-a=12 #interger
-
-b=1.2 #float
-
-c="Hello" #string
+    a=12 #interger
+    b=1.2 #float
+    c="Hello" #string
 
 ->Python allows us to assign a value to multiple variables and multiple values to multiple variables in a single statement which is also known as multiple assignment.
 
     Assign single value to multiple variables:
 
-example:
-
-a=b=c=10
+    example: a=b=c=10
 ## Operators
 ->Operators in Python are special symbols that carry arithmetic or logical operations. The value that the operator operates on is called the operand.
 
@@ -157,6 +153,8 @@ a=b=c=10
   ->Indexing in tuple is as same as in python strings and lists.
 
   ->There are only two build-in functions in a tuple for accessing the items 1.count 2.index.
+
+    example: t1=(1,'python',4.2) , t2=('c',)
   #### 5.Set
   ->A set is a unordered collectionof items.Every elementis unique and must be immutable.And are represented by curly braces {}.
 
@@ -166,16 +164,27 @@ a=b=c=10
 
   ->Sets are used to perform mathematical set operations
   like union,intersection etc.
+
+  ->Set elements can be of different types,like list,tuple,set or dictionary
+  
+    example: s1={1,2,3}, s2={[1,23,45]}, 
+    s3={1.0,'Python',[24,11,2.0]}
+
   #### 6.Dictionaries
   ->A dictionary is a unorderd collection of key-value pairs.Dictionaries are represented by curly braces {}, key and values are separated by colons ','.
 
   ->Dictionary is mutable and Dictionaries are indexed by keys.
+
+    example: {"name":"jayanth","age":21}
   #### 7.Boolean
   ->Boolean data type generally has only two values 'True' or 'False'.
 
+    example: input: 24==24
+            output: True
+             input: 11<7
+            output:False
   #### 8.None
   ->Python uses the keyword None to define null objects and variables.
-
-
-
-
+  example: input: a=None
+                  print(a)
+          output: None
