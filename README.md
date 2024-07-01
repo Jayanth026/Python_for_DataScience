@@ -18,10 +18,18 @@
  - learn how to build projects on real-world applications
    with the python language.
 ## Python Basics
- - Print conditions
+ - Print statement
  - variables
  - Operators
  - Data types
+  ## Print statement
+  ->Print statement is one of the most basic and popular functions in python - the print() statement.
+
+  ->Python print() function is used to print the specified object to the standard output device (screen) or to a text stream file.
+
+   ->The Python print() method is used to print a given message to the screen or to display an object’s value on the terminal.
+
+  for example: print('Hello World!')
   ## variables
  ->A variable is a named memory location in which we can store values for the particular program.
 
@@ -106,7 +114,7 @@ a=b=c=10
     3.Lists
     4.Tuple
     5.Set
-    6.Dictionarie
+    6.Dictionaries
     7.Boolean
     8.None
  #### 1.Numbers:
@@ -141,20 +149,32 @@ a=b=c=10
   ->Indexing in list is as same as in python strings.
 
   ->Python list build-in functions are used for adding,deleting,updating of items in the list.
-  #### Tuple
+  #### 4.Tuple
   ->A tuple is a sequence of immutable element or items and it can store multipleitems in a single variable.
 
   ->A tuple can be represented in small brackets().
 
+  ->Indexing in tuple is as same as in python strings and lists.
+
   ->There are only two build-in functions in a tuple for accessing the items 1.count 2.index.
-  #### Set
-  ->A set is a unordered collectionof items.Every elementis unique and must be immutable.
-  
+  #### 5.Set
+  ->A set is a unordered collectionof items.Every elementis unique and must be immutable.And are represented by curly braces {}.
+
+  ->Set doesnot have indexing because set is unordered. 
+
   ->However,the set itself is mutable.We can add or remove items from it.
 
   ->Sets are used to perform mathematical set operations
   like union,intersection etc.
+  #### 6.Dictionaries
+  ->A dictionary is a unorderd collection of key-value pairs.Dictionaries are represented by curly braces {}, key and values are separated by colons ','.
 
+  ->Dictionary is mutable and Dictionaries are indexed by keys.
+  #### 7.Boolean
+  ->Boolean data type generally has only two values 'True' or 'False'.
+
+  #### 8.None
+  ->Python uses the keyword None to define null objects and variables.
 
 
 
