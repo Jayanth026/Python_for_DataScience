@@ -81,3 +81,45 @@ a=b=c=10
 ->Operators in Python are special symbols that carry arithmetic or logical operations. The value that the operator operates on is called the operand.
 
 ->In python there are 7 different types of Operators:
+### Arithmetic Operators:
+    + (addition)
+    - (subtraction)
+    *(multiplication)
+    /(divide)
+    %(reminder)
+    // (floor division)
+    ** (exponent)
+### Membership Operators:
+    in (True, If the value is present in the data structure)   
+    not in (True, If the value is not present in the data
+    structure)
+### Comparison operators:
+    == (Equal to)
+    != (Not equal to)
+    <= (Less than or equal)
+    >= (Greater than or equal)
+    < (Less than)
+    > (Greater than)
+### Assignment operators:
+    = (Assigns to)
+    += (Assignment after Addition)
+    -= (Assignment after Subtraction)
+    *= (Assignment after Multiplication)
+    /= (Assignment after Division)
+    %= (Assignment after Modulus)
+    **= (Assignment after Exponent)
+    //= (Assignment after floor division)
+### Bitwise operators:
+    & (binary and)
+    | (binary or)
+    ^ (binary xor)
+    ~ (negation)
+    << (left shift)
+    >> (right shift)
+### Logical operators:
+    and (logical and)
+    or (logical or)
+    not (logical not)
+### Identity operators:
+    is (Returns true if both variables are the same object)
+    is not (Returns true if both variables are not the same object)
