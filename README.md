@@ -81,11 +81,3 @@ a=b=c=10
 ->Operators in Python are special symbols that carry arithmetic or logical operations. The value that the operator operates on is called the operand.
 
 ->In python there are 7 different types of Operators:
-
-
-
-
-    
-
-
-![Logo](https://d1e4pidl3fu268.cloudfront.net/f20083ef-a2fb-4673-ac88-13d58ba68133/Arithmeticoperators.png)
