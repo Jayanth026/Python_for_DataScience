@@ -189,6 +189,7 @@ example:
             output:False
   #### 8.None
   ->Python uses the keyword None to define null objects and variables.
+  
     example: input: a=None
              print(a)
              output: None
