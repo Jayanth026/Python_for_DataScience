@@ -193,6 +193,75 @@ example:
     example: input: a=None
              print(a)
              output: None
+## Python Intermediate
+    -> Conditional statements
+    -> control statements
+    -> Jump statements
+    -> Functions
+## Conditional statements
+-> Conditional statements perform different actions and computations based on conditions.
+
+-> In python there are 3 Conditional statements:
+
+    1. if 
+    2. if-else
+    3. if-elif-else
+#### 1. if statement
+-> An if statement is used to check a condition,and execute it if the condition holds true.
+
+    Syntax:
+            if condition:
+              statement 1
+              statement 2..
+    example: 
+            if 2>1:
+              print('True')
+#### 2. if-else statement
+-> An if-else statement is used to execute both true part and false part in the given condition.
+
+    Syntax:
+            if condition:
+              statement 1
+              statement 2..
+            else:
+              statement 3
+              statement 4..
+    example:
+            a=2
+            b=1
+            if a>b:
+              print('True')
+            else:
+              print('False)
+#### 3.if-elif-else statement
+-> we can use if-elif-else statement to tell python to try a different condition if the previous conditions were not met.
+
+    Syntax:
+            if condition 1:
+              statement 1
+              statement 2..
+            elif condition 2:
+              statement 3
+              statement 4..
+            elif condition 3:
+              statement 5
+              statement 6..
+            else:
+              statement 7
+              statement 8..
+    example:
+            a=1
+            b=2
+            c=3
+            if a>b:
+              print('a is Greater than b')
+            elif b>c:
+              print('b is Greater than c')
+            elif c>a:
+              print('c is Greater than a')
+            else:
+              print('all are same')
+## Control statements
 
 
 
