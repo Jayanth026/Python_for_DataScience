@@ -311,3 +311,120 @@ example:
             * * * * *
             * * * * *
             * * * * *
+  ## control statements
+  -> control statements in python are used to alter the flow of a loop like you want to skip a part of a loop or terminate a loop.
+
+->In python, the following are jump statements.
+
+    break
+    continue
+    pass
+#### break:
+->The break is a keyword in python which is used to bring the program control out of the loop.
+   
+    example:
+    n=[10, 40, 120, 230]
+    for i in n:
+    if i>100:
+        break
+    print('current number',i)
+
+    output:
+    curret number 10
+    curret number 40
+
+
+#### continue:
+->The continue statement skip the current iteration and move to the next iteration.
+    
+    example:
+    for i in range(1,7):
+    if i==5:
+        continue
+    print(i)
+    output:
+    1
+    2
+    3
+    4
+    6
+#### pass:
+->Do nothing. Ignore the condition in which it occurred and proceed to run the program as usual.
+## Functions:
+-> Piece of reusable code
+
+-> Solves particular task
+
+-> Call function instead of writing code  yourself
+
+    syntax:
+    def fun_name(parameters):
+           statement(s)
+    example:
+    def add(a,b):
+      sum=a+b
+      print('sum=',sum)
+    add(2,3)
+## Python Advanced
+    ->File Handling
+    ->Exception Handling
+    ->Map,filter and reduce
+    ->Lambda functions
+    ->OOP's
+  ## File Handling:
+  ->File is a named location on disk to store related information.
+
+  ->It is used to permanently store data in non-volatile memory.
+
+  #### Reading File:
+->read(chars): reads the specified number of characters starting  from the current position.
+
+->readline():	reads	the	characters	starting	from	the	current  reading position up to a newline character.
+
+->readlines(): reads all lines until the end of file and returns a list  object.
+  #### writing File:
+  Similarly, for writing data to files, we have to use open() with 'wt' mode
+Also, we have to use the write() function to write into a file.
+
+->Similarly, for writing data to files, we have to use open() with 'wt' mode
+
+->Also, we have to use the write() function to write into a file.
+
+    f=open('filename.txt' , 'wt')
+    f.write ('hi there, this is a first line of file.\n’)
+    f.write ('and another line.\n’)
+    f.close()
+    Output:
+    hi there, this is a first line of file.  and another line.
+  #### With statement:
+  ->With statement is used when we have two related operations which we would  like to execute as a pair, with a block of code in between
+
+    Example: opening a file, manipulating a file and closing it
+    with open(“output.txt”,”w”) as f:
+    f.write(“Hello Python!”)
+  ->The above statement automatically close the file after the nested block of code.
+  ## Exception Handling
+  ->Encountering errors and exceptions can be very frustrating at times, and can make coding feel like a hopeless endeavor.
+
+->Python Errors can be of three types:
+
+    Compile time errors (Syntax errors)
+    Runtime errors (Exceptions)
+    Logical errors
+
+->The try block lets you test a block of code for errors.
+The except block lets you handle the error.
+
+->The finally block lets you execute code, regardless of the result of the try- and except block.
+
+    example:
+    a=int(input(“First Number:”)) b=int(input(“Second number”))
+    result=a/b
+    print(“Result=”,result)
+    except ZeroDivisionError: print(“Division by zero”)
+    else:
+    print(“Successful division”)
+    Output:
+    First Number:10 Second number:0
+    Division by zero
+  ## Map,filter and reduce
