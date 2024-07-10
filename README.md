@@ -22,6 +22,7 @@
  - variables
  - Operators
  - Data types
+ - Control and Condition statemens
   ## Print statement
   ->Print statement is one of the most basic and popular functions in python - the print() statement.
 
@@ -189,14 +190,14 @@ example:
             output:False
   #### 8.None
   ->Python uses the keyword None to define null objects and variables.
-  
+
     example: input: a=None
              print(a)
              output: None
 ## Python Intermediate
     -> Conditional statements
+    -> Loop statements
     -> control statements
-    -> Jump statements
     -> Functions
 ## Conditional statements
 -> Conditional statements perform different actions and computations based on conditions.
@@ -261,8 +262,52 @@ example:
               print('c is Greater than a')
             else:
               print('all are same')
-## Control statements
+## Loop statements
+-> Looping means repeating something over and over until a particular condition is satisfied.
 
+    Types of Loops
+    1. While Loop
+    2. For Loop
+    3. Nested Loop
 
+  #### 1. While Loop
+  -> A while loop allows code to be executed repeatedly,depending on whether a condition is satisfied or not.
 
+    Syntax:
+           while condition:
+              statement(s)
+    example:
+           i=1
+           while i<=2:
+              print(i)
+              i=i+1
+            output:
+            1
+            2
+  #### 2.For Loop
+  -> The for loop in python is used to iterate the statements or a part of program several times.It is frequently used to traverse the data structures like list,tuple,string or dictionary.
 
+    Syntax:
+          for iterating_var in sequence:
+              statement(s)
+    example:
+          for i in range(1,4):
+              print(i)
+          output:
+          1
+          2
+          3
+  #### Nested Loop
+  -> A nested loop refers to a loop within a loop,an inner loop within the body of an outer one.
+
+    example:
+       for i in range(5):
+          for j in range(5):
+              print('*',end=' ')
+              print()
+       output:
+            * * * * *
+            * * * * *
+            * * * * *
+            * * * * *
+            * * * * *
