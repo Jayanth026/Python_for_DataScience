@@ -199,6 +199,10 @@ example:
     -> Loop statements
     -> control statements
     -> Functions
+    -> lambda functions
+    -> Comprehensions
+    -> Recursion
+    -> JSON
 ## Conditional statements
 -> Conditional statements perform different actions and computations based on conditions.
 
@@ -366,11 +370,10 @@ example:
       print('sum=',sum)
     add(2,3)
 ## Python Advanced
-    ->File Handling
-    ->Exception Handling
-    ->Map,filter and reduce
-    ->Lambda functions
-    ->OOP's
+    -> File Handling
+    -> Exception Handling
+    -> OOP's
+    ->
   ## File Handling:
   ->File is a named location on disk to store related information.
 
@@ -427,4 +430,58 @@ The except block lets you handle the error.
     Output:
     First Number:10 Second number:0
     Division by zero
-  ## Map,filter and reduce
+  ## OOP's
+    ->class
+    ->object
+    ->constructor
+    ->self
+    ->Inheritance
+    ->Polymorphisam
+    ->Abstraction
+    ->Encapusulation
+  #### class
+  ->A class is a special data type which defines how to build a certain kind of object.
+  #### object
+  -> object is the instance of a class.
+  #### constructor
+  ->constructors are two types
+
+1.Non parameter constructor
+
+2.Parameter constructor
+
+-> non parameter constructortakes no arguments.
+
+-> A parameter constructor takes one or two arguments.
+  
+  #### self
+  ->The first argument of every method is a reference to the current instance of the class.
+  #### Inheritance
+  ->It refers to defining a new class with little or no modification to an existing class.
+
+->The new class is called derived (or child) class and the one from which  it inherits is called the base (or parent) class.
+-> There are different types of Inheritance:
+    ->Single Inheritance
+    ->Multilevel Inheritance
+    ->Multiple Inheritance
+    ->HIERARICAL Inheritance
+    ->Hybrid Inheritance
+  #### Polymorphisam
+  ->Basically it is a greek word where poly -> Many Morphisam means -> forms.
+
+  ->this concept is having 2 internal types
+
+    1.Method Overloading->
+    2.Method Overriding
+#### Abstraction
+ ->It refers to a programming approach by which only the relevant data about an object is exposed, hiding all the other details.
+#### Encapusulation
+->The terms encapsulation and abstraction (also data hiding)  are often used as synonyms. They are nearly synonymous.
+
+->Generally speaking encapsulation is the mechanism for  restricting the access to some of an objects's components,  this means, that the internal representation of an object  can't be seen from outside of the objects definition.
+
+->There 3 types of data in Encapusulation
+
+    1.public
+    2.private
+    3.protected
