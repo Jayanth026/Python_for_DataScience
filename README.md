@@ -369,11 +369,25 @@ example:
       sum=a+b
       print('sum=',sum)
     add(2,3)
+  ## Recursion
+  ->Recursion generally means finding a solution to a problem by repeatedly solving the simpler versions of the same problem. 
+
+  ->In Python, recursion is the process of a function calling itself directly or indirectly. This is a way to get to the solution of a problem by breaking it into smaller and simpler steps. 
+
+  ->The syntax of recursion in Python is:
+
+    Syntax:
+    def func_name(parameters):
+    func_name(updated parameters)
+  ## JSON
+  ->JSON is a syntax for storing and exchanging data.
+  JSON is text, written with JavaScript object notation.
+  
+  ->Python has a built-in package called json, which can be used to work with JSON data.
 ## Python Advanced
     -> File Handling
     -> Exception Handling
     -> OOP's
-    ->
   ## File Handling:
   ->File is a named location on disk to store related information.
 
@@ -485,3 +499,4 @@ The except block lets you handle the error.
     1.public
     2.private
     3.protected
+## Production Level
