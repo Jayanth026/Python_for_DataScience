@@ -500,3 +500,14 @@ The except block lets you handle the error.
     2.private
     3.protected
 ## Production Level
+    1.Multiprocessing
+    2.MultiThreading
+#### Multiprocessing
+->A process is a sequence of instructions executed in a predefined order.
+
+->A multiprocessing is a act of running many processes simultaneously.
+
+#### MultiThreading
+-> MultiThreading is the ability of a processor to execute multiple threads concurrently.
+
+->It enables more than one user at a time without requiring multiple copies of the program running on the computer.
